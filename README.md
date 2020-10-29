@@ -211,4 +211,4 @@ data structures, you'll find it can be a very helpful tool.
 ## Resources
 
 * [Pry documentation](http://pry.github.io/)
-* [Debugging with Pry: A Beginner's Guide] (https://dev.to/elimerrell/debugging-with-pry-a-beginners-guide-3p99)
+* [Debugging with Pry: A Beginner's Guide](https://dev.to/elimerrell/debugging-with-pry-a-beginners-guide-3p99)
