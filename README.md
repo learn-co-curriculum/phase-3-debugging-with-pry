@@ -1,15 +1,15 @@
 # Debugging with Pry
 
-## Overview
+## Learning Goals
+
+- Explain how Pry is a more flexible REPL than IRB.
+- Install Pry on your computer (already installed for IDE users).
+- Debug a program using binding.pry within the body of your file.
+
+## Introduction
 
 We'll cover Pry, a type of REPL, and discuss how to install and use it to debug
 a program.
-
-## Objectives
-
-1. Explain how Pry is a more flexible REPL than IRB.
-2. Install Pry on your computer (already installed for IDE users).
-3. Debug a program using binding.pry within the body of your file.
 
 ## What Is a REPL?
 
