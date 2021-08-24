@@ -60,8 +60,8 @@ Let's take a look. In this repository, you'll see a file called
 
 First, let's make sure Pry is installed on your system:
 
-```sh
-gem install pry
+```console
+$ gem install pry
 ```
 
 This will install the Pry gem system-wide, so you only need to run this command
