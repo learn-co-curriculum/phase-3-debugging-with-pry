@@ -110,6 +110,22 @@ something like this:
 You have frozen your program _as it executes_ and are now inside a REPL _inside
 your program_. You basically just stopped time! How cool is that?
 
+> **NOTE**: Depending on the size of your terminal window, Pry might not be able
+> to fit your entire method on the screen, in which case you'll see a screen
+> like this:
+>
+> ```txt
+>   3: def prying_into_the_method
+>      4:     inside_the_method = "We're inside the method"
+>      5:     puts inside_the_method
+>      6:     puts "We're about to stop because of pry!"
+>      7:     binding.pry
+> :
+> ```
+>
+> If you ever get into this situation where you see a `:` as the terminal prompt
+> instead of `pry(main)>`, just type the letter `q` in the terminal to exit out.
+
 In the terminal, in your pry console, type the variable name `inside_the_method`
 and hit enter. You should see a return value of `"We're inside the method"`
 
@@ -221,4 +237,5 @@ data structures, you'll find it can be a very helpful tool.
 ## Resources
 
 - [Pry documentation](http://pry.github.io/)
+- [Pry wiki](https://github.com/pry/pry/wiki)
 - [Debugging with Pry: A Beginner's Guide](https://dev.to/elimerrell/debugging-with-pry-a-beginners-guide-3p99)
